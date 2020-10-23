@@ -8,7 +8,7 @@ elements = [
     "Nh","Fl","Mc","Lv","Ts","Og"
     ]
 
-word = (sys.argv[1]).replace(" ", "")
+word = (sys.argv[1]).replace(" ", "").lower()
 wordLength = len(word)
 elementsInWord = []
 
